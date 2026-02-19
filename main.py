@@ -1,6 +1,6 @@
 import requests
 
-api_key = "d8d1d6410c2d7ac08e9cd55a"
+api_key = ""
 
 def convert(source, dest, amount):
     url = f"https://v6.exchangerate-api.com/v6/{api_key}/latest/{source}"
